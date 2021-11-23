@@ -195,30 +195,7 @@
     border: none;
     border-radius: 20px; 
 }
-/*-------------------About Us---------------------*/
-/* #about-us
-{
-    color: whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-.about-title
-{
-    color: whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
-    font-weight: 200;
-    margin-top: 8%;
-}
-#about-us ul li
-{
-    margin: 10px 0;
-}
-#about-us ul
-{
-    margin-left: 20px;
-} */
+
 /*-------------Social Media Section------------------*/
 #social-media
 { 
