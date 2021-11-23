@@ -1,0 +1,30 @@
+<html>
+<style>
+body {
+  background-image: url('background3.jpg');
+}
+</style>
+</head>
+<body>
+<p> HEXIDECIAML </p>
+<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
+ <img src=av.jpg style= width:450px; height:380px;>
+		
+			
+ <br>
+ <label for="binary">Enter a hexadecimal:  </label><input type="text" id="binum" size="5"/> 
+ </br>
+<input type="button" id="result" value="Convert "  onclick="hextobinary()">
+<script type= "text/javascript">
+   "use strict"
+   function hextobinary () {
+		var x = document.getElementById("binum").value;
+		 var res = parseInt(x, 2);
+		
+	alert('Binary Number is: ' + res);
+	document.getElementById("result").value = res;
+
+    }
+</html>

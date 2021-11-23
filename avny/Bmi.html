@@ -1,0 +1,53 @@
+<html>
+<style>
+body {
+  background-image: url('background2-.jpg');
+}
+</style>
+</head>
+<body>
+<p> BMI CALCULATOR 
+<img src=BMI.png style= width:450px; height:370px;></p>
+<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
+<center>
+</p> 
+  <title> My BMI calculator</title>
+  <link rel= stylesheet typetext/css
+  <header>
+  <h2>
+   <br>  BMI calculator.</br>
+   </header>
+   <section>
+   <p> </p>
+   <div id=showcase>
+   <div class=container>
+   <form name= bmiform>
+ 
+   <label for="weight">Weight: </label><input type="text" id= "weight"  size="5"/>
+   <br>
+
+   <label for="height">Height: </label><input type="text" id="height" size="5"/>
+   </br>
+   <input type="button" id="calc" value="Calculate"  onclick="calculate()">
+   <script type= "text/javascript">
+   "use strict"
+   function calculate () {
+		var W= document.getElementById ("weight").value;
+    W = parseFloat (W);
+   var H = document.getElementById("height").value;
+    H = parseFloat (H);
+    var total = W + H;
+	alert('BMI: ' + total);
+	document.getElementById("calc").value = total;
+
+    }
+    </script>
+   </br>
+  
+
+</body>
+</html>
+
+

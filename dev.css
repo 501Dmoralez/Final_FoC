@@ -1,0 +1,24 @@
+body {
+    background-image: url("images/devht.png");
+    background-size: contain;
+    min-height: 100vh;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(10, 110, 192);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(233, 206, 56);
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+/* .social-link:hover, .social-link:focus {
+    background: rgb(141, 3, 3);
+    text-decoration: none;
+    color: rgb(177, 211, 27);
+} */
